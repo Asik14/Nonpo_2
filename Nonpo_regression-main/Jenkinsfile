@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Asik14/Nonpo_regression.git'
+                git branch: 'main', url: 'https://github.com/Asik14/Nonpo_2.git'
             }
         }
 
